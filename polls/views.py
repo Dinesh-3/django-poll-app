@@ -4,7 +4,6 @@ from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from .models import Choice, Question
 
-# Create your views here.
 
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
