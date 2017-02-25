@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.template import loader
 from django.shortcuts import get_object_or_404, render
-from django.urls import reverse
+from django.core.urlresolvers import reverse
 from .models import Choice, Question
 
 
