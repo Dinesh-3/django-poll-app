@@ -1,5 +1,5 @@
 *.log
 *.sql
 *.sqlite
-settings.py
-settings.pyc
+*settings.pyc
+*settings.py
